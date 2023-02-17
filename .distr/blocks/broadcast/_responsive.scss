@@ -1,0 +1,36 @@
+.broadcast {
+    @media (max-width: 1199px) {
+        &__content {
+            max-width: 800px;
+        }
+    }
+    @media (max-width: 991px) {
+        background: url("../img/broadcast/fon-tab.jpg") no-repeat center center / cover;
+        padding: 70px 0 544px;
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__subtitle {
+            font-size: 24px;
+            line-height: 120%;
+        }
+    }
+    @media (max-width: 767px) {
+    }
+    @media (max-width: 575px) {
+        background: url("../img/broadcast/fon-mob.jpg") no-repeat center center / cover;
+        padding: 40px 0 220px;
+        &__content {
+            max-width: 295px;
+        }
+
+        &__title {
+            font-size: 16px;
+            line-height: 120%;
+        }
+        &__subtitle {
+            font-size: 14px;
+            line-height: 110%;
+        }
+    }
+}

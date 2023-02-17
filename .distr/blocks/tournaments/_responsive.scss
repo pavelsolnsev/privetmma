@@ -1,0 +1,41 @@
+.tournaments {
+    @media (max-width: 1199px) {
+        padding: 120px 0 90px;
+        &__item {
+            height: 231px;
+            margin-bottom: 45px;
+            padding-left: 65px;
+            &-title {
+                font-size: 28px;
+                line-height: 106.5%;
+            }
+        }
+    }
+    @media (max-width: 991px) {
+    }
+    @media (max-width: 767px) {
+    }
+    @media (max-width: 575px) {
+        padding: 110px 0;
+        &__item {
+            height: 317px;
+            margin-bottom: 28px;
+            padding-left: 16px;
+            padding-top: 56px;
+            align-items: flex-start;
+            &:nth-child(1) {
+                background: url('../img/tournaments/card-mob-1.jpg') no-repeat center center / cover;
+            }
+            &:nth-child(2) {
+                background: url('../img/tournaments/card-mob-2.jpg') no-repeat center center / cover;
+            }
+            &:nth-child(3) {
+                background: url('../img/tournaments/card-mob-3.jpg') no-repeat center center / cover;
+            }
+            &-title {
+                font-size: 18px;
+                line-height: 106.5%;
+            }
+        }
+    }
+}

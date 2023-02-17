@@ -1,0 +1,69 @@
+.main {
+    @media (max-width: 1250px) {
+    }
+
+    @media (max-width: 1199px) {
+        padding: 120px 0 110px;
+        &__content {
+            max-width: 417px;
+        }
+        &__subtitle {
+            font-size: 14.6836px;
+            line-height: 19px;
+            margin-bottom: 12px;
+        }
+        &__title {
+            font-size: 60px;
+            line-height: 86%;
+            margin-bottom: 27px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 120%;
+            margin-bottom: 48px;
+        }
+
+        &__button {
+            max-width: 251px;
+            height: 38px;
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 991px) {
+    }
+
+    @media (max-width: 767px) {
+        &__content {
+            max-width: 330px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        background: url("../img/main/bg-mob.jpg") no-repeat center center / cover;
+        padding: 83px 0 357px;
+        &__content {
+            max-width: 100%;
+        }
+        &__subtitle {
+            font-size: 12.3062px;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }
+        &__title {
+            font-size: 48.8878px;
+            line-height: 89%;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 120%;
+            margin-bottom: 48px;
+        }
+
+        &__button {
+            display: none;
+        }
+    }
+}

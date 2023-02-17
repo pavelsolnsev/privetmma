@@ -1,0 +1,25 @@
+.footer {
+    background: #070101;
+    padding: 27px 0;
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__developer {
+        display: flex;
+    }
+
+    &__link {
+        font-weight: 300;
+        font-size: 20px;
+        color: #e4e4e4;
+        &:hover, &:focus, &:active {
+            color: #e4e4e4;
+        }
+        &:first-child {
+            margin-right: 40px;
+        }
+    }
+}
