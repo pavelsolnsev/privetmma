@@ -1,0 +1,30 @@
+.tournaments {
+    background: url("../img/tournaments/fon.jpg") no-repeat center center / cover;
+    padding: 117px 0 200px;
+    &__item {
+        display: flex;
+        align-items: center;
+        height: 350px;
+        padding-left: 140px;
+        margin-bottom: 65px;
+       
+        &:nth-child(1) {
+            background: url('../img/tournaments/card-1.jpg') no-repeat center center / cover;
+        }
+        &:nth-child(2) {
+            background: url('../img/tournaments/card-2.jpg') no-repeat center center / cover;
+        }
+        &:nth-child(3) {
+            background: url('../img/tournaments/card-3.jpg') no-repeat center center / cover;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &-title {
+            font-weight: 500;
+            font-size: 42.3162px;
+            line-height: 106.5%;
+            color: #ffffff;
+        }
+    }
+}

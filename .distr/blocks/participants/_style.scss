@@ -1,0 +1,34 @@
+.participants {
+    padding: 160px 0;
+    background: url("../img/participants/fon.jpg") no-repeat center center / cover;
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 86px;
+        grid-row-gap: 75px;
+    }
+    &__item {
+        // display: flex;
+        // flex-direction: column;
+        max-width: 220px;
+        width: 100%;
+        img {
+            margin-bottom: 17px;
+            height: 335px;
+        }
+        &-title {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 123%;
+            color: #ffffff;
+            font-family: $DrukTextWideCyr;
+            margin-bottom: 10px;
+        }
+
+        &-text {
+            font-size: 18px;
+            line-height: 137%;
+            color: #bbbbbb;
+        }
+    }
+}

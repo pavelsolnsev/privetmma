@@ -1,0 +1,59 @@
+.header {
+	@media (max-width: 1199px) {
+		min-height: 65px;
+		&.active {
+			min-height: 55px;
+		}
+		&__logo {
+			margin-right: 24px;
+			max-width: 59px;
+		}
+
+		&__item {
+			margin-right: 14px;
+		}
+
+		&__link {
+			font-size: 12px;
+		}
+
+		&__button {
+			max-width: 192px;
+			height: 21px;
+			a {
+				font-size: 12px;
+			}
+			&-login {
+				max-width: 77px;
+			}
+			&-reg {
+				max-width: 103px;
+			}
+		}
+	}
+
+	@media (max-width: 991px) {
+	}
+	@media (max-width: 768px) {
+		&__logo {
+			margin-right: 0;
+		}
+		&__menu {
+			display: none;
+		}
+
+		&__button {
+			max-width: 209px;
+			height: 24px;
+			a {
+				font-size: 12px;
+			}
+			&-login {
+				max-width: 89px;
+			}
+			&-reg {
+				max-width: 106px;
+			}
+		}
+	}
+}

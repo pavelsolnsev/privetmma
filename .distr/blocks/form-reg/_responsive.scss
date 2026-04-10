@@ -1,0 +1,57 @@
+.form-reg {
+    @media (max-width: 1199px) {
+        &:after {
+            height: 600px;
+        }
+
+        &__box {
+            max-width: 500px;
+        }
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__subtitle {
+            font-size: 14.0375px;
+            line-height: 14px;
+            margin-bottom: 25px;
+        }
+
+        &__button {
+            max-width: 220px;
+            height: 38px;
+            font-size: 11.6979px;
+        }
+    }
+    @media (max-width: 991px) {
+    }
+    @media (max-width: 767px) {
+        padding: 0;
+        &:after {
+            background: url("../img/info/fon-mob.png") no-repeat 0 0 / 100% 100%;
+            height: 350px;
+        }
+    }
+    @media (max-width: 575px) {
+        &:after {
+            height: 320px;
+        }
+        &__title {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        &__button {
+            max-width: 253px;
+            height: 43px;
+            font-size: 14px;
+        }
+    }
+
+}

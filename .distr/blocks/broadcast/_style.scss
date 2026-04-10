@@ -1,0 +1,22 @@
+.broadcast {
+    background: url("../img/broadcast/fon.jpg") no-repeat center center / cover;
+    padding: 100px 0 823px;
+    position: relative;
+    &__content {
+        max-width: 1144px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin-bottom: 22px;
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 120%;
+    }
+}
